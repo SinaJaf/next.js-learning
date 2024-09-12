@@ -28,7 +28,7 @@ const PropertyPage = ({ params, searchParams, pathname }) => {
     <div className="text-2xl">
       Properties Page { params.id } <br/> name: { searchParams.name } <br/> path: localhost:3000{ pathname }
     <br/>
-    <button className='text-[#2563eb]' onClick={() => router.replace('/')}>
+    <button className='text-[#2563eb]'>
       Go Home
     </button> 
     </div>
